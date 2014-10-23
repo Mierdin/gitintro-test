@@ -4,6 +4,8 @@ vlan 3
   name ESXi_vMotion
 vlan 10
   name ServerNetwork
+vlan 11
+  name ServerNetwork2
 
 interface Vlan2
   no shutdown
@@ -19,3 +21,8 @@ interface Vlan10
   no shutdown
   no ip redirects
   ip address 172.123.10.1/24
+
+interface Vlan11
+  no shutdown
+  no ip redirects
+  ip address 172.123.11.1/24
