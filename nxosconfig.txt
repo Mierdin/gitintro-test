@@ -6,6 +6,8 @@ vlan 10
   name ServerNetwork
 vlan 11
   name ServerNetwork2
+vlan 12
+  name ServerNetwork3
 
 interface Vlan2
   no shutdown
