@@ -9,6 +9,8 @@ import yaml
 
 ENV = Environment(loader=FileSystemLoader('./'))
 
+def amazingfunction(self):
+    pass
 
 def get_config(configfile):
     """Pulls YAML configuration from file and returns dict object"""
